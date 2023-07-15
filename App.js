@@ -51,7 +51,6 @@ export default function App() {
           <FlatList
             data={courseGoals}
             renderItem={(itemData) => {
-              // itemData.index
               return (
                 <GoalItem
                   text={itemData.item.text}
